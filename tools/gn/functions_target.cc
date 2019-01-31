@@ -154,7 +154,7 @@ File name handling
 Variables
 
   args, data, data_deps, depfile, deps, inputs, metadata, outputs*, pool,
-  response_file_contents, script*, sources
+  response_file_contents, description, script*, sources
   * = required
 
 Example
@@ -224,7 +224,7 @@ File name handling
 Variables
 
   args, data, data_deps, depfile, deps, inputs, metadata, outputs*, pool,
-  response_file_contents, script*, sources*
+  response_file_contents, description, script*, sources*
   * = required
 
 Example

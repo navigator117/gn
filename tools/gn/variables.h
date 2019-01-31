@@ -194,6 +194,10 @@ extern const char kDeps[];
 extern const char kDeps_HelpShort[];
 extern const char kDeps_Help[];
 
+extern const char kDescription[];
+extern const char kDescription_HelpShort[];
+extern const char kDescription_Help[];
+
 extern const char kFriend[];
 extern const char kFriend_HelpShort[];
 extern const char kFriend_Help[];
