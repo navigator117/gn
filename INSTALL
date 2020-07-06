@@ -1,0 +1,10 @@
+install deps:
+yum install llvm-toolset-7
+
+build:
+scl enable llvm-toolset-7 bash
+./build/gen.py --out-path=./bin
+ninja -C ./bin
+
+edit ~/.bash_profile:
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/GITs/tsa/ninja:$HOME/GITs/tsa/gn/bin
